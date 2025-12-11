@@ -1,4 +1,4 @@
-package com.example.paymentgateway;
+package com.example.paymentgateway.Enum;
 
 import lombok.Getter;
 
