@@ -2,7 +2,7 @@ package com.example.paymentgateway.Services.Impl;
 
 import com.example.paymentgateway.Entity.AccountDetails;
 import com.example.paymentgateway.Entity.User;
-import com.example.paymentgateway.ResponseCodeandMessage;
+import com.example.paymentgateway.Enum.ResponseCodeandMessage;
 import com.example.paymentgateway.Services.UserService;
 import com.example.paymentgateway.Utility.customErrorException;
 import com.example.paymentgateway.dto.AccountDTO;
