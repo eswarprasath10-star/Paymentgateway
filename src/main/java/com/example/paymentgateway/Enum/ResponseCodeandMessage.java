@@ -1,0 +1,17 @@
+package com.example.paymentgateway;
+
+import lombok.Getter;
+
+@Getter
+public enum ResponseCodeandMessage {
+    SUCCESS("0000","SUCCESS"),
+    EMAILALREADYEXIT("0080","email address already exit");
+    private String code;
+    private String message;
+    ResponseCodeandMessage(String code,String message)
+    {
+        this.code=code;
+        this.message=message;
+    }
+
+}
